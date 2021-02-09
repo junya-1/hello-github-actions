@@ -11,3 +11,5 @@ jobs:
         with:
           MY_NAME: "Mona"
       - run : uname -a
+      - run : cat /proc/cpuinfo
+      - run : df -h
