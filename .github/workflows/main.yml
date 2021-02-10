@@ -13,3 +13,4 @@ jobs:
       - run : uname -a
       - run : cat /proc/cpuinfo
       - run : df -h
+      - run : cat /etc/os-release
